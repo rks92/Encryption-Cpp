@@ -7,9 +7,6 @@
 
 #ifndef ENCRYPT_H_
 #define ENCRYPT_H_
-#include <vector>
-#include <string>
-
 using namespace std;
 
 class encrypt{
@@ -20,7 +17,6 @@ public:
 
 	bool readFile();
 	bool writeFile();
-	bool generateDecodeFile();
 
 private:
 	string mDataBits;
